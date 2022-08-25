@@ -1,0 +1,71 @@
+body {
+    background: url(background.jpg);
+    margin: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f1113d2;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 20px;
+    border: 5px solid rgb(254, 238, 9);
+    border-radius: 10px;
+}
+.scorecard{
+    color: white;
+}
+.scorecard h2{
+    background-color: black;
+    background-size: cover;
+    width:80px;
+    height: 50px;
+    font-family: "Cursed Timer ULiL";
+    font-size: 50px;  
+    padding-top: 0px;
+    color: rgb(255, 0, 0);
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    border: 3px solid rgb(254, 238, 9);
+}
+.scorecard button{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    padding: 3px 3px 3px 3px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white; 
+    border: 2px solid rgb(254, 238, 9);
+}
+.resett button{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    padding: 3px 3px 3px 3px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 85px; 
+    margin-bottom: 10px;
+    background-color: #000104;
+    border: 2px solid rgb(254, 238, 9);
+    border-radius: 20px;
+    color: white; 
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
